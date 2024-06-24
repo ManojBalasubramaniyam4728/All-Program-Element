@@ -1,0 +1,193 @@
+Manifest-Version: 1.0
+Built-By: Manoj
+Build-Jdk: 17.0.11
+Class-Path: lib/tyss-data-models-1.0-20240215.104012-13.jar lib/dynamodb
+ -2.15.0.jar lib/aws-json-protocol-2.15.0.jar lib/jackson-core-2.10.4.ja
+ r lib/protocol-core-2.15.0.jar lib/profiles-2.15.0.jar lib/sdk-core-2.1
+ 5.0.jar lib/reactive-streams-1.0.2.jar lib/auth-2.15.0.jar lib/eventstr
+ eam-1.0.1.jar lib/http-client-spi-2.15.0.jar lib/regions-2.15.0.jar lib
+ /jackson-annotations-2.10.4.jar lib/annotations-2.15.0.jar lib/utils-2.
+ 15.0.jar lib/aws-core-2.15.0.jar lib/metrics-spi-2.15.0.jar lib/apache-
+ client-2.15.0.jar lib/netty-nio-client-2.15.0.jar lib/netty-codec-http2
+ -4.1.46.Final.jar lib/netty-codec-4.1.46.Final.jar lib/netty-handler-4.
+ 1.46.Final.jar lib/netty-transport-native-epoll-4.1.46.Final-linux-x86_
+ 64.jar lib/netty-reactive-streams-http-2.0.4.jar lib/iam-2.15.0.jar lib
+ /aws-query-protocol-2.15.0.jar lib/kinesis-2.15.0.jar lib/aws-cbor-prot
+ ocol-2.15.0.jar lib/jackson-dataformat-cbor-2.10.4.jar lib/s3-2.15.0.ja
+ r lib/aws-xml-protocol-2.15.0.jar lib/arns-2.15.0.jar lib/tyss-common-1
+ .0-20240215.100513-8.jar lib/commons-lang3-3.9.jar lib/jackson-databind
+ -2.10.3.jar lib/spring-data-mongodb-2.2.6.RELEASE.jar lib/spring-tx-5.2
+ .5.RELEASE.jar lib/spring-data-commons-2.2.6.RELEASE.jar lib/mongo-java
+ -driver-3.11.2.jar lib/validation-api-2.0.1.Final.jar lib/aspectjweaver
+ -1.9.5.jar lib/commons-io-2.5.jar lib/commons-text-1.9.jar lib/spring-b
+ oot-starter-actuator-2.2.6.RELEASE.jar lib/spring-boot-starter-2.2.6.RE
+ LEASE.jar lib/spring-boot-2.2.6.RELEASE.jar lib/spring-boot-autoconfigu
+ re-2.2.6.RELEASE.jar lib/spring-boot-starter-logging-2.2.6.RELEASE.jar 
+ lib/logback-classic-1.2.3.jar lib/logback-core-1.2.3.jar lib/log4j-to-s
+ lf4j-2.12.1.jar lib/log4j-api-2.12.1.jar lib/jul-to-slf4j-1.7.30.jar li
+ b/jakarta.annotation-api-1.3.5.jar lib/snakeyaml-1.25.jar lib/spring-bo
+ ot-actuator-autoconfigure-2.2.6.RELEASE.jar lib/spring-boot-actuator-2.
+ 2.6.RELEASE.jar lib/jackson-datatype-jsr310-2.10.3.jar lib/micrometer-c
+ ore-1.3.6.jar lib/HdrHistogram-2.1.11.jar lib/LatencyUtils-2.0.3.jar li
+ b/maven-release-plugin-3.0.0-M6.jar lib/maven-release-manager-3.0.0-M6.
+ jar lib/maven-release-api-3.0.0-M6.jar lib/plexus-interactivity-api-1.1
+ .jar lib/plexus-interpolation-1.26.jar lib/plexus-sec-dispatcher-2.0.ja
+ r lib/javax.inject-1.jar lib/plexus-cipher-2.0.jar lib/maven-invoker-3.
+ 2.0.jar lib/maven-shared-utils-3.3.4.jar lib/aether-api-1.0.0.v20140518
+ .jar lib/aether-util-1.0.0.v20140518.jar lib/maven-scm-provider-gitexe-
+ 1.13.0.jar lib/commons-lang-2.6.jar lib/maven-scm-provider-git-commons-
+ 1.13.0.jar lib/maven-scm-provider-jgit-1.13.0.jar lib/org.eclipse.jgit-
+ 4.5.4.201711221230-r.jar lib/jsch-0.1.53.jar lib/JavaEWAH-0.7.9.jar lib
+ /maven-scm-provider-hg-1.13.0.jar lib/maven-scm-provider-svnexe-1.13.0.
+ jar lib/maven-scm-manager-plexus-1.13.0.jar lib/maven-scm-provider-svn-
+ commons-1.13.0.jar lib/maven-artifact-transfer-0.13.1.jar lib/maven-cor
+ e-3.0.jar lib/maven-model-3.0.jar lib/maven-settings-3.0.jar lib/maven-
+ settings-builder-3.0.jar lib/maven-repository-metadata-3.0.jar lib/mave
+ n-plugin-api-3.0.jar lib/maven-model-builder-3.0.jar lib/maven-aether-p
+ rovider-3.0.jar lib/aether-impl-1.7.jar lib/aether-spi-1.7.jar lib/aeth
+ er-api-1.7.jar lib/aether-util-1.7.jar lib/plexus-classworlds-2.2.3.jar
+  lib/plexus-sec-dispatcher-1.3.jar lib/plexus-cipher-1.4.jar lib/maven-
+ artifact-3.0.jar lib/plexus-component-annotations-2.0.0.jar lib/maven-c
+ ommon-artifact-filters-3.1.0.jar lib/maven-plugin-annotations-3.6.4.jar
+  lib/maven-scm-api-1.13.0.jar lib/plexus-utils-3.4.2.jar lib/jdom2-2.0.
+ 6.1.jar lib/httpcore-4.4.13.jar lib/spring-security-core-5.2.2.RELEASE.
+ jar lib/spring-security-oauth2-2.5.2.RELEASE.jar lib/spring-webmvc-4.3.
+ 30.RELEASE.jar lib/spring-web-4.3.30.RELEASE.jar lib/spring-security-co
+ nfig-4.2.20.RELEASE.jar lib/aopalliance-1.0.jar lib/spring-security-web
+ -4.2.20.RELEASE.jar lib/commons-codec-1.14.jar lib/swagger-annotations-
+ 1.5.20.jar lib/jcifs-ng-2.1.5.jar lib/slf4j-api-1.7.24.jar lib/bcprov-j
+ dk15on-1.66.jar lib/java-client-8.0.0-beta2.jar lib/gson-2.8.9.jar lib/
+ cglib-3.3.0.jar lib/asm-7.1.jar lib/commons-validator-1.7.jar lib/commo
+ ns-beanutils-1.9.4.jar lib/commons-digester-2.1.jar lib/commons-logging
+ -1.2.jar lib/commons-collections-3.2.2.jar lib/selenium-java-4.1.2.jar 
+ lib/selenium-devtools-v85-4.1.2.jar lib/selenium-devtools-v95-4.1.2.jar
+  lib/selenium-devtools-v96-4.1.2.jar lib/selenium-devtools-v97-4.1.2.ja
+ r lib/selenium-firefox-xpi-driver-4.1.2.jar lib/selenium-support-4.1.2.
+ jar lib/auto-service-annotations-1.0.1.jar lib/auto-service-1.0.1.jar l
+ ib/auto-common-1.2.jar lib/guava-31.0.1-jre.jar lib/failureaccess-1.0.1
+ .jar lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+  lib/jsr305-3.0.2.jar lib/checker-qual-3.12.0.jar lib/error_prone_annot
+ ations-2.7.1.jar lib/j2objc-annotations-1.3.jar lib/byte-buddy-1.12.7.j
+ ar lib/selenium-json-4.1.2.jar lib/selenium-api-4.1.2.jar lib/selenium-
+ chrome-driver-4.1.2.jar lib/selenium-edge-driver-4.1.2.jar lib/selenium
+ -firefox-driver-4.1.2.jar lib/selenium-ie-driver-4.1.2.jar lib/selenium
+ -opera-driver-4.1.2.jar lib/selenium-remote-driver-4.1.2.jar lib/jcomma
+ nder-1.82.jar lib/netty-buffer-4.1.73.Final.jar lib/netty-codec-http-4.
+ 1.73.Final.jar lib/netty-common-4.1.73.Final.jar lib/netty-transport-cl
+ asses-epoll-4.1.73.Final.jar lib/netty-transport-classes-kqueue-4.1.73.
+ Final.jar lib/netty-transport-native-epoll-4.1.73.Final.jar lib/netty-t
+ ransport-native-kqueue-4.1.73.Final.jar lib/netty-transport-native-unix
+ -common-4.1.73.Final.jar lib/netty-transport-4.1.73.Final.jar lib/netty
+ -resolver-4.1.73.Final.jar lib/opentelemetry-api-1.10.1.jar lib/opentel
+ emetry-context-1.10.1.jar lib/opentelemetry-exporter-logging-1.10.1.jar
+  lib/opentelemetry-sdk-metrics-1.10.1-alpha.jar lib/opentelemetry-sdk-l
+ ogs-1.10.1-alpha.jar lib/opentelemetry-sdk-common-1.10.1.jar lib/opente
+ lemetry-sdk-extension-autoconfigure-spi-1.10.1.jar lib/opentelemetry-sd
+ k-extension-autoconfigure-1.10.1-alpha.jar lib/opentelemetry-sdk-trace-
+ 1.10.1.jar lib/opentelemetry-sdk-1.10.1.jar lib/opentelemetry-semconv-1
+ .10.1-alpha.jar lib/jtoml-2.0.0.jar lib/commons-exec-1.3.jar lib/async-
+ http-client-2.12.3.jar lib/async-http-client-netty-utils-2.12.3.jar lib
+ /netty-codec-socks-4.1.60.Final.jar lib/netty-handler-proxy-4.1.60.Fina
+ l.jar lib/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar lib
+ /netty-reactive-streams-2.0.4.jar lib/jakarta.activation-1.2.2.jar lib/
+ selenium-http-4.1.2.jar lib/failsafe-2.4.4.jar lib/selenium-safari-driv
+ er-4.1.2.jar lib/selenium-chromium-driver-4.1.2.jar lib/webdrivermanage
+ r-3.6.1.jar lib/httpclient-4.5.6.jar lib/jarchivelib-1.0.0.jar lib/jsou
+ p-1.11.3.jar lib/bson-3.11.2.jar lib/poi-4.1.1.jar lib/commons-collecti
+ ons4-4.4.jar lib/commons-math3-3.6.1.jar lib/poi-ooxml-schemas-4.1.1.ja
+ r lib/xmlbeans-3.1.0.jar lib/poi-ooxml-4.1.1.jar lib/commons-compress-1
+ .19.jar lib/curvesapi-1.06.jar lib/json-simple-1.1.1.jar lib/junit-4.10
+ .jar lib/hamcrest-core-1.1.jar lib/tyss-config-1.0-20240215.101559-9.ja
+ r lib/spring-boot-starter-data-rest-2.7.7.jar lib/spring-boot-starter-w
+ eb-2.7.7.jar lib/spring-boot-starter-json-2.7.7.jar lib/jackson-datatyp
+ e-jdk8-2.13.4.jar lib/jackson-module-parameter-names-2.13.4.jar lib/spr
+ ing-boot-starter-tomcat-2.7.7.jar lib/tomcat-embed-core-9.0.70.jar lib/
+ tomcat-embed-el-9.0.70.jar lib/tomcat-embed-websocket-9.0.70.jar lib/sp
+ ring-data-rest-webmvc-3.7.6.jar lib/spring-data-rest-core-3.7.6.jar lib
+ /spring-hateoas-1.5.2.jar lib/json-path-2.6.0.jar lib/spring-plugin-cor
+ e-2.0.0.RELEASE.jar lib/evo-inflector-1.3.jar lib/spring-boot-starter-s
+ ecurity-2.7.7.jar lib/keycloak-spring-security-adapter-18.0.2.jar lib/k
+ eycloak-core-18.0.2.jar lib/keycloak-common-18.0.2.jar lib/bcpkix-jdk15
+ on-1.68.jar lib/keycloak-adapter-spi-18.0.2.jar lib/keycloak-adapter-co
+ re-18.0.2.jar lib/jboss-logging-3.4.1.Final.jar lib/kafka-clients-3.1.2
+ .jar lib/zstd-jni-1.5.0-4.jar lib/lz4-java-1.8.0.jar lib/snappy-java-1.
+ 1.8.4.jar lib/mongodb-driver-sync-4.6.1.jar lib/mongodb-driver-core-4.6
+ .1.jar lib/bson-record-codec-4.6.1.jar lib/spring-boot-starter-oauth2-c
+ lient-2.7.7.jar lib/spring-security-oauth2-client-5.7.6.jar lib/spring-
+ security-oauth2-core-5.7.6.jar lib/oauth2-oidc-sdk-9.35.jar lib/jcip-an
+ notations-1.0-1.jar lib/content-type-2.2.jar lib/json-smart-2.4.8.jar l
+ ib/accessors-smart-2.4.8.jar lib/lang-tag-1.6.jar lib/spring-security-o
+ auth2-jose-5.7.6.jar lib/nimbus-jose-jwt-9.22.jar lib/spring-boot-start
+ er-oauth2-resource-server-2.7.7.jar lib/spring-security-oauth2-resource
+ -server-5.7.6.jar lib/spring-cloud-starter-vault-config-3.1.1.jar lib/s
+ pring-cloud-starter-3.1.3.jar lib/spring-cloud-context-3.1.3.jar lib/sp
+ ring-security-crypto-5.6.5.jar lib/spring-cloud-commons-3.1.3.jar lib/s
+ pring-security-rsa-1.0.10.RELEASE.jar lib/spring-cloud-vault-config-3.1
+ .1.jar lib/spring-vault-core-2.3.2.jar lib/aws-java-sdk-1.11.163.jar li
+ b/aws-java-sdk-dax-1.11.163.jar lib/jmespath-java-1.11.163.jar lib/aws-
+ java-sdk-greengrass-1.11.163.jar lib/aws-java-sdk-athena-1.11.163.jar l
+ ib/aws-java-sdk-marketplaceentitlement-1.11.163.jar lib/aws-java-sdk-co
+ destar-1.11.163.jar lib/aws-java-sdk-lexmodelbuilding-1.11.163.jar lib/
+ aws-java-sdk-resourcegroupstaggingapi-1.11.163.jar lib/aws-java-sdk-pin
+ point-1.11.163.jar lib/aws-java-sdk-xray-1.11.163.jar lib/aws-java-sdk-
+ opsworkscm-1.11.163.jar lib/aws-java-sdk-support-1.11.163.jar lib/aws-j
+ ava-sdk-simpledb-1.11.163.jar lib/aws-java-sdk-servicecatalog-1.11.163.
+ jar lib/aws-java-sdk-servermigration-1.11.163.jar lib/aws-java-sdk-simp
+ leworkflow-1.11.163.jar lib/aws-java-sdk-storagegateway-1.11.163.jar li
+ b/aws-java-sdk-route53-1.11.163.jar lib/aws-java-sdk-s3-1.11.163.jar li
+ b/aws-java-sdk-importexport-1.11.163.jar lib/aws-java-sdk-sts-1.11.163.
+ jar lib/aws-java-sdk-sqs-1.11.163.jar lib/aws-java-sdk-rds-1.11.163.jar
+  lib/aws-java-sdk-redshift-1.11.163.jar lib/aws-java-sdk-elasticbeansta
+ lk-1.11.163.jar lib/aws-java-sdk-glacier-1.11.163.jar lib/aws-java-sdk-
+ iam-1.11.163.jar lib/aws-java-sdk-datapipeline-1.11.163.jar lib/aws-jav
+ a-sdk-elasticloadbalancing-1.11.163.jar lib/aws-java-sdk-elasticloadbal
+ ancingv2-1.11.163.jar lib/aws-java-sdk-emr-1.11.163.jar lib/aws-java-sd
+ k-elasticache-1.11.163.jar lib/aws-java-sdk-elastictranscoder-1.11.163.
+ jar lib/aws-java-sdk-ec2-1.11.163.jar lib/aws-java-sdk-dynamodb-1.11.16
+ 3.jar lib/aws-java-sdk-sns-1.11.163.jar lib/aws-java-sdk-budgets-1.11.1
+ 63.jar lib/aws-java-sdk-cloudtrail-1.11.163.jar lib/aws-java-sdk-cloudw
+ atch-1.11.163.jar lib/aws-java-sdk-logs-1.11.163.jar lib/aws-java-sdk-e
+ vents-1.11.163.jar lib/aws-java-sdk-cognitoidentity-1.11.163.jar lib/aw
+ s-java-sdk-cognitosync-1.11.163.jar lib/aws-java-sdk-directconnect-1.11
+ .163.jar lib/aws-java-sdk-cloudformation-1.11.163.jar lib/aws-java-sdk-
+ cloudfront-1.11.163.jar lib/aws-java-sdk-clouddirectory-1.11.163.jar li
+ b/aws-java-sdk-kinesis-1.11.163.jar lib/aws-java-sdk-opsworks-1.11.163.
+ jar lib/aws-java-sdk-ses-1.11.163.jar lib/aws-java-sdk-autoscaling-1.11
+ .163.jar lib/aws-java-sdk-cloudsearch-1.11.163.jar lib/aws-java-sdk-clo
+ udwatchmetrics-1.11.163.jar lib/aws-java-sdk-codedeploy-1.11.163.jar li
+ b/aws-java-sdk-codepipeline-1.11.163.jar lib/aws-java-sdk-kms-1.11.163.
+ jar lib/aws-java-sdk-config-1.11.163.jar lib/aws-java-sdk-lambda-1.11.1
+ 63.jar lib/aws-java-sdk-ecs-1.11.163.jar lib/aws-java-sdk-ecr-1.11.163.
+ jar lib/aws-java-sdk-cloudhsm-1.11.163.jar lib/aws-java-sdk-ssm-1.11.16
+ 3.jar lib/aws-java-sdk-workspaces-1.11.163.jar lib/aws-java-sdk-machine
+ learning-1.11.163.jar lib/aws-java-sdk-directory-1.11.163.jar lib/aws-j
+ ava-sdk-efs-1.11.163.jar lib/aws-java-sdk-codecommit-1.11.163.jar lib/a
+ ws-java-sdk-devicefarm-1.11.163.jar lib/aws-java-sdk-elasticsearch-1.11
+ .163.jar lib/aws-java-sdk-waf-1.11.163.jar lib/aws-java-sdk-marketplace
+ commerceanalytics-1.11.163.jar lib/aws-java-sdk-inspector-1.11.163.jar 
+ lib/aws-java-sdk-iot-1.11.163.jar lib/aws-java-sdk-api-gateway-1.11.163
+ .jar lib/aws-java-sdk-acm-1.11.163.jar lib/aws-java-sdk-gamelift-1.11.1
+ 63.jar lib/aws-java-sdk-dms-1.11.163.jar lib/aws-java-sdk-marketplaceme
+ teringservice-1.11.163.jar lib/aws-java-sdk-cognitoidp-1.11.163.jar lib
+ /aws-java-sdk-discovery-1.11.163.jar lib/aws-java-sdk-applicationautosc
+ aling-1.11.163.jar lib/aws-java-sdk-snowball-1.11.163.jar lib/aws-java-
+ sdk-rekognition-1.11.163.jar lib/aws-java-sdk-polly-1.11.163.jar lib/aw
+ s-java-sdk-lightsail-1.11.163.jar lib/aws-java-sdk-stepfunctions-1.11.1
+ 63.jar lib/aws-java-sdk-health-1.11.163.jar lib/aws-java-sdk-costandusa
+ gereport-1.11.163.jar lib/aws-java-sdk-codebuild-1.11.163.jar lib/aws-j
+ ava-sdk-appstream-1.11.163.jar lib/aws-java-sdk-shield-1.11.163.jar lib
+ /aws-java-sdk-batch-1.11.163.jar lib/aws-java-sdk-lex-1.11.163.jar lib/
+ aws-java-sdk-mechanicalturkrequester-1.11.163.jar lib/aws-java-sdk-orga
+ nizations-1.11.163.jar lib/aws-java-sdk-workdocs-1.11.163.jar lib/aws-j
+ ava-sdk-core-1.11.163.jar lib/ion-java-1.0.2.jar lib/joda-time-2.8.1.ja
+ r lib/aws-java-sdk-models-1.11.163.jar lib/aws-java-sdk-swf-libraries-1
+ .11.22.jar lib/jmespath-core-0.5.0.jar lib/jmespath-jackson-0.5.0.jar l
+ ib/spring-integration-smb-1.2.2.RELEASE.jar lib/jcifs-2.1.29.jar lib/sp
+ ring-integration-file-5.3.10.RELEASE.jar lib/spring-integration-core-5.
+ 3.10.RELEASE.jar lib/spring-messaging-5.2.19.RELEASE.jar lib/spring-ret
+ ry-1.2.5.RELEASE.jar lib/reactor-core-3.3.22.RELEASE.jar lib/spring-con
+ text-5.2.5.RELEASE.jar lib/spring-aop-5.2.5.RELEASE.jar lib/spring-bean
+ s-5.2.5.RELEASE.jar lib/spring-core-5.2.5.RELEASE.jar lib/spring-jcl-5.
+ 2.5.RELEASE.jar lib/spring-expression-5.2.5.RELEASE.jar
+Created-By: Maven Integration for Eclipse
+
